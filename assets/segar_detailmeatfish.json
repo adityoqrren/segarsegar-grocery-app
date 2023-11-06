@@ -1,0 +1,69 @@
+{
+    "data" : [
+        {
+            "id_item" : 1,
+            "image_link" : "https://img.freepik.com/free-photo/top-view-fresh-organic-chicken-meat-wooden-cutting-board_114579-66136.jpg?w=900&t=st=1699196225~exp=1699196825~hmac=2808329b6cbfc590b09e91744cdb8f4bd6ae15d8a45d57881c6af8bf4df809bd",
+            "title" : "Paha Ayam",
+            "variant" : "500 gram",
+            "price" : 30000,
+            "description" : "Daging ayam paha utuh segar dan berkualitas tinggi, cocok untuk berbagai hidangan kuliner favorit. Daging ayam lembut yang siap menghadirkan cita rasa alami dan renyah dalam setiap hidangan Anda. Kualitas terbaik, sudah dibersihkan dari bulu dan kotoran. Dijamin kesegarannya",
+            "shelf_life" : [
+                "1 bulan",
+                "1-2 hari"
+            ],
+            "storage_method" : "Dalam suhu tropis, penting untuk memastikan daging ayam tetap terlindungi dari panas ekstrem. Jika Anda tidak akan menggunakannya dalam waktu singkat, pertimbangkan untuk membekukan daging ayam untuk memperpanjang umur simpannya."
+        },
+        {
+            "id_item" : 2,
+            "image_link" : "https://img.freepik.com/free-photo/raw-chicken-breasts-wooden-cutting-board_1150-13456.jpg?w=900&t=st=1699196305~exp=1699196905~hmac=12b08bab0c39b53881b6b6b934f3eccd8aa29eb4dba65f8bc4d5e59909c54035",
+            "title" : "Dada Ayam",
+            "variant" : "500 gram",
+            "price" : 30000,
+            "description" : "Daging ayam dada utuh segar dan berkualitas tinggi, cocok untuk berbagai hidangan kuliner favorit. Daging ayam lembut yang siap menghadirkan cita rasa alami dan renyah dalam setiap hidangan Anda. Kualitas terbaik, sudah dibersihkan dari bulu dan kotoran. Dijamin kesegarannya",
+            "shelf_life" : [
+                "1 bulan",
+                "1-2 hari"
+            ],
+            "storage_method" : "Dalam suhu tropis, penting untuk memastikan daging ayam tetap terlindungi dari panas ekstrem. Jika Anda tidak akan menggunakannya dalam waktu singkat, pertimbangkan untuk membekukan daging ayam untuk memperpanjang umur simpannya."
+        },
+        {
+            "id_item" : 3,
+            "image_link" : "https://img.freepik.com/free-photo/lamb-leg-wooden-board-prepared-cook-tomato-broccoli-salt-top-view_141793-12253.jpg?w=900&t=st=1699197015~exp=1699197615~hmac=81ac14ffd8b7774828c7b6bd6ec36ca55ba5b32a6fa327c903f410963d480e79",
+            "title" : "Daging Kambing Lokal",
+            "variant" : "500 gram",
+            "price" : 100000,
+            "description" : "Daging kambing segar yang kami tawarkan adalah pilihan terbaik untuk memenuhi kebutuhan kuliner Anda. Daging kambing ini memiliki tekstur yang lembut dan rasa yang khas, ideal untuk hidangan panggang, gulai, sate, atau hidangan kambing favorit Anda. Diproses halal. Daging dipastikan aman dan berkualitas.",
+            "shelf_life" : [
+                "1 bulan",
+                "1-2 hari"
+            ],
+            "storage_method" : "Simpan daging kambing pilihan dalam kemasan aslinya atau wadah kedap udara yang rapat di dalam kulkas untuk menjaga kesegarannya. Jika Anda tidak akan menggunakannya dalam waktu singkat, pertimbangkan untuk membekukan daging kambing untuk memperpanjang umur simpannya."
+        },
+        {
+            "id_item" : 4,
+            "image_link" : "https://img.freepik.com/free-photo/raw-meat_144627-33845.jpg?w=900&t=st=1699197062~exp=1699197662~hmac=6fd36061b0e6ffc9583876e48528a6bae701fa3c75b4173fa2ea21bf4d490dcf",
+            "title" : "Daging Sapi Lokal",
+            "variant" : "500 gram",
+            "price" : 100000,
+            "description" : ". Daging sapi lokal pilihan terbaik untuk berbagai hidangan favorit Anda. Daging sapi ini memiliki tekstur yang lembut dan cita rasa gurih yang akan memanjakan lidah Anda. Ideal untuk hidangan panggang, gulai, steak, atau masakan sapi lokal khas daerah. Diproses halal dan dijamin kesegarannya.",
+            "shelf_life" : [
+                "1 bulan",
+                "1-2 hari"
+            ],
+            "storage_method" : "Simpan daging sapi lokal dalam kemasan aslinya atau wadah kedap udara yang rapat di dalam kulkas untuk menjaga kesegarannya. Jika Anda tidak akan menggunakannya dalam waktu singkat, pertimbangkan untuk membekukan daging sapi lokal untuk memperpanjang umur simpannya."
+        },
+        {
+            "id_item" : 5,
+            "image_link" : "https://img.freepik.com/free-photo/fresh-mackerel-steak_1339-6206.jpg?w=900&t=st=1699197396~exp=1699197996~hmac=7a62c3bff732b2afac7ddfc2542c9ae63f44b33001bd17bd15ef75b53acb232d",
+            "title" : "Ikan Tuna",
+            "variant" : "500 gram",
+            "price" : 50000,
+            "description" : "Ikan tuna lokal beku potongan fillet. Dikenal dengan tekstur yang lembut dan cita rasa laut yang khas, daging tuna sangat serbaguna dan cocok untuk berbagai hidangan. Ideal untuk disajikan sebagai sashimi, diolah menjadi steak tuna, atau digunakan dalam salad. Mengandung protein dan Omega-3 tinggi.",
+            "shelf_life" : [
+                "1 bulan",
+                "1-2 hari"
+            ],
+            "storage_method" : "Simpan daging tuna segar dalam kemasan aslinya atau wadah kedap udara yang rapat di dalam kulkas untuk menjaga kesegarannya.  Untuk mempertahankan kesegaran lebih lama, Anda dapat membekukan daging tuna dalam wadah tertutup."
+        }
+    ]
+}

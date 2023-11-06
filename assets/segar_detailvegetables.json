@@ -1,0 +1,108 @@
+{
+    "data": [
+        {
+            "id_item" : 1,
+            "image_link" : "https://images.unsplash.com/photo-1620512485527-2fa996abf1b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+            "title" : "Brokoli Import Australia",
+            "variant" : "1 Pcs",
+            "price" : 30000,
+            "description" : "Brokoli adalah sayuran yang terkenal dengan penampilan berwarna hijau tua dan bentuk yang menyerupai pohon kecil. Sayuran ini adalah bagian dari keluarga kubis-kubisan (Brassicaceae) dan dikenal karena kandungan nutrisinya yang kaya, termasuk serat, vitamin C, vitamin K, dan sejumlah senyawa antioksidan. Brokoli sering digunakan dalam berbagai masakan, termasuk tumis, sup, salad, dan sebagai makanan pendamping.",
+            "shelf_life" : [
+                "3-5 hari",
+                "2 hari"
+            ],
+            "storage_method" : " Bungkus brokoli dalam kantong plastik atau kantong kertas dan simpan di bagian bawah kulkas.Jika Anda ingin menyimpan brokoli di luar kulkas, letakkan dalam wadah tertutup dan letakkan di tempat yang sejuk dan teduh. Pastikan untuk mengonsumsinya secepat mungkin."
+        },
+        {
+            "id_item" : 2,
+            "image_link" : "https://images.unsplash.com/photo-1600807644626-fb3c8c8ba40d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+            "title" : "Bawang Merah Super",
+            "variant" : "200 gram",
+            "price" : 10000,
+            "description" : "Bawang merah pilihan ini mengalami perlakuan istimewa sebelum dikirim, sehingga lebih kering dibandingkan dengan bawang merah biasa. Hal ini membuatnya lebih tahan lama, tidak gampang busuk, dan dapat disimpan dengan baik hingga satu minggu pada suhu ruang. Anda dapat memanfaatkannya sebagai bumbu untuk meningkatkan cita rasa masakan, mengolahnya menjadi bawang goreng yang renyah, atau berkreasi dengan cara lain sesuai selera Anda",
+            "shelf_life" : [
+                "1 bulan",
+                "1 bulan"
+            ],
+            "storage_method" : "Simpan bawang merah di tempat yang kering, sejuk, dan gelap. Bawang merah sebaiknya tidak disimpan di kulkas, kecuali jika Anda tinggal di lingkungan dengan suhu panas yang ekstrem. Di suhu kamar yang sejuk, bawang merah dapat bertahan dengan baik. Simpan bawang merah di tempat yang memiliki sirkulasi udara yang baik."
+        },
+        {
+            "id_item" : 3,
+            "image_link" : "https://img.freepik.com/free-photo/fresh-red-tomatoes_2829-13449.jpg?w=740&t=st=1697501882~exp=1697502482~hmac=87b914b5742b995d555d66f56e89ca82badd4ef9ac8db04fc96c5a0aa5edc26a",
+            "title" : "Tomat Beef Premium",
+            "variant" : "1 Pcs",
+            "price" : 3500,
+            "description" : "Tomat Beef adalah tomat varietas istimewa yang memiliki ciri khas ukuran besar dan dagingnya yang tebal seperti daging sapi. Kulitnya yang halus dan warnanya yang cerah membuatnya mudah dikenali di pasaran. Tomat ini memiliki cita rasa manis dan sedikit asam yang sempurna untuk menghidangkan hidangan segar.Tomat Beef sangat serbaguna dalam penggunaannya. Anda dapat memotongnya menjadi irisan tebal untuk membuat sandwich tomat yang lezat atau menggunakan potongan besar sebagai lapisan dalam burger.",
+            "shelf_life" : [
+                "2-3 hari",
+                "1-2 hari"
+            ],
+            "storage_method" : "Segera olah tomat beef setelah diterima. Jangan buah tangkai tomat atau tutup dengan selotip. Simpan dalam posisi terbalik (stem down) di suhu ruang. Sebaiknya, jangan menyimpan tomat di kulkas. Suhu dingin akan membuat rasa tomat menjadi hambar."
+        },
+        {
+            "id_item" : 4,
+            "image_link" : "https://images.unsplash.com/photo-1602769515559-e15133a7e992?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1309&q=80",
+            "title" : "Daun Bawang Ukuran Standar",
+            "variant" : "250 gram",
+            "price" : 8000,
+            "description" : "Daun bawang, juga dikenal sebagai \"bawang prei\" atau \"scallion,\" adalah tanaman berdaun hijau yang termasuk dalam keluarga bawang. Tanaman ini dikenal dengan batangnya yang panjang, berwarna hijau, dan daun-daunnya yang ramping. Daun bawang memiliki rasa yang lembut dan sedikit pedas, serta aroma yang segar. Dalam masakan, daun bawang sering digunakan sebagai hiasan, penyedap, atau bahan dasar saus dan sup.",
+            "shelf_life" : [
+                "1-2 minggu",
+                "3-5 hari"
+            ],
+            "storage_method" : "Untuk menyimpan daun bawang di dalam kulkas, potong bagian akar (bagian putih) dan simpan hanya bagian hijau batang dan daun. Bungkus daun bawang dalam kertas tisu atau kantong plastik yang sedikit longgar. Tempatkan dalam laci sayuran kulkas pada suhu sekitar 1 hingga 4 derajat Celsius"
+        },
+        {
+            "id_item" : 5,
+            "image_link" : "https://images.unsplash.com/photo-1526346698789-22fd84314424?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+            "title" : "Cabai Merah Besar Premium",
+            "variant" : "250 gram",
+            "price" : 22000,
+            "description" : "Cabai merah besar adalah cabai dengan bentuk yang menyerupai lonceng, dengan kulit luar yang halus dan warna merah cerah yang khas. Rasanya tidak sepedas cabai rawit dan gurih serta tekstur yang renyah. Biasanya digunakan dalam masakan sebagai bahan dasar, hiasan, atau bahan untuk mengisi hidangan.",
+            "shelf_life" : [
+                "1-2 minggu",
+                "7-10 hari"
+            ],
+            "storage_method" : "Simpan cabai merah besar dalam kantong plastik atau wadah tertutup di dalam laci sayuran kulkas. Pastikan untuk memeriksa cabai merah secara berkala dan buang bagian yang telah berkerut atau busuk. Jika di luar kulkas, letakkan cabai merah besar di tempat yang sejuk, kering, dan gelap. Hindari paparan langsung terhadap sinar matahari, "
+        },
+        {
+            "id_item" : 6,
+            "image_link" : "https://images.unsplash.com/photo-1590848791238-fb3596a2ba56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+            "title" : "Wortel Berastagi",
+            "variant" : "500 gram",
+            "price" : 15000,
+            "description" : "Wortel Berastagi adalah varietas wortel yang berasal dari Berastagi, sebuah daerah di Indonesia yang terkenal dengan hasil pertaniannya. Wortel ini memiliki bentuk silinder yang lebih pendek daripada wortel biasa dan berwarna oranye cerah yang khas. Rasanya manis dan gurih, membuatnya menjadi pilihan yang lezat untuk dimakan segar atau dimasak dalam berbagai hidangan.",
+            "shelf_life" : [
+                "2-3 minggu",
+                "5-7 hari"
+            ],
+            "storage_method" : "Potong atau potong bagian daunnya dan cuci wortel Berastagi sebelum menyimpannya di dalam kulkas. Tempatkan dalam kantong plastik atau wadah tertutup dan simpan di laci sayuran kulkas pada suhu sekitar 0 hingga 4 derajat Celsius. Untuk di luar kulkas, cari tempat yang sejuk dan gelap. Hindari paparan langsung sinar matahari. Letakkan wortel di dalam keranjang atau wadah terbuka yang memiliki sirkulasi udara yang baik."
+        },
+        {
+            "id_item" : 7,
+            "image_link" : "https://images.unsplash.com/photo-1599403417231-8387b0a3b7ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
+            "title" : "Kentang Dieng Sedang",
+            "variant" : "500 gram",
+            "price" : 14500,
+            "description" : "Kentang ini memiliki ukuran yang lebih besar daripada kentang konvensional. Dagingnya berwarna keemasan yang indah dan memiliki tekstur yang sangat lembut. Kandungan airnya yang rendah membuatnya sangat cocok untuk berbagai jenis hidangan, seperti perkedel kentang, kentang balado, kentang mustofa, kentang goreng, dan makanan lainnya. Kentang ini tetap utuh dan tidak mudah hancur selama proses pengolahan.",
+            "shelf_life" : [
+                "2-3 minggu",
+                "1-2 minggu"
+            ],
+            "storage_method" : "Cuci dan keringkan kentang Dieng sebelum menyimpannya di dalam kulkas. Tempatkan dalam kantong plastik atau wadah tertutup dan simpan di laci sayuran kulkas pada suhu sekitar 0 hingga 4 derajat Celsius. Untuk penyimpanan di luar kulkas, letakkan kentang Dieng di tempat yang sejuk, gelap, dan kering. Hindari paparan langsung sinar matahari. Anda dapat meletakkan kentang dalam keranjang atau wadah terbuka yang memiliki sirkulasi udara yang baik."
+        },
+        {
+            "id_item" : 8,
+            "image_link" : "https://images.unsplash.com/photo-1583681781586-b980500f327a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+            "title" : "Bayam Hijau Standar",
+            "variant" : "250 gram",
+            "price" : 4500,
+            "description" : "Bayam hijau lokal adalah sayuran yang memiliki daun berwarna hijau gelap yang tumbuh dalam bentuk daun bulat atau oval. Daun bayam ini memiliki tekstur yang lembut dan rasa yang segar. Bayam hijau lokal dikenal karena kandungan nutrisinya yang kaya, termasuk vitamin, mineral, serat, dan antioksidan. Sayuran ini sering digunakan dalam salad, tumisan, atau hidangan rebusan.",
+            "shelf_life" : [
+                "7-10 hari",
+                "3-5 hari"
+            ],
+            "storage_method" : "Cuci bayam dengan lembut dan keringkan sebelum menyimpannya di dalam kulkas. Tempatkan dalam kantong plastik atau wadah tertutup dengan tisu kertas yang menyerap kelembaban. Pastikan bayam dalam keadaan kering. Simpan di laci sayuran kulkas pada suhu sekitar 0 hingga 4 derajat Celsius."
+        }
+    ]
+}

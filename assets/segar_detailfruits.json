@@ -1,0 +1,108 @@
+{
+    "data": [
+        {
+            "id_item" : 1,
+            "image_link" : "https://images.unsplash.com/photo-1692954333872-6da89c08cd57?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "title" : "Pisang Canvendish",
+            "variant" : "1 sisir",
+            "price" : 15000,
+            "description" : "Pisang Cavendish adalah varietas pisang yang sangat umum dan populer. Buah ini memiliki kulit kuning cerah yang melindungi dagingnya yang manis dan lembut. Pisang Cavendish adalah buah yang penuh dengan nutrisi, kaya serat, vitamin, dan mineral. Rasanya yang lezat membuatnya menjadi camilan sehat yang cocok untuk sehari-hari.",
+            "shelf_life" : [
+                "7 hari",
+                "7 hari"
+            ],
+            "storage_method" : "Simpan pisang Cavendish di suhu ruang pada suhu sekitar 25-30°C (77-86°F). Pisang matang lebih cepat di iklim tropis. Jika Anda ingin memperlambat pematangan, simpan pisang di dalam kulkas, tetapi pastikan untuk melindunginya dari suhu yang terlalu rendah, yang dapat menyebabkan kulitnya berubah menjadi hitam."
+        },
+        {
+            "id_item" : 2,
+            "image_link" : "https://img.freepik.com/free-photo/overhead-view-whole-fresh-golden-pineapple-marble-surface_140725-97108.jpg?w=900&t=st=1699166689~exp=1699167289~hmac=4d8ec76351366a0f31011c8f83daeccc6fc1dacda52a9d8d7db8896d60176966",
+            "title" : "Nanas Palembang Besar",
+            "variant" : "1 Pcs",
+            "price" : 10000,
+            "description" : "Nanas Palembang adalah varietas nanas yang berasal dari daerah Palembang, Indonesia. Buah ini dikenal dengan kulit berwarna cokelat keemasan yang tebal dan daging yang manis serta sedikit asam. Ukurannya yang relatif kecil menjadikannya pas untuk dinikmati sebagai camilan pribadi atau berdua. Ketika matang, warnanya berubah menjadi kuning cerah, dan memiliki mata buah yang kecil, sehingga memudahkan Anda untuk memotong dan menikmatinya dengan mudah.",
+            "shelf_life" : [
+                "7 hari",
+                "3-5 hari"
+            ],
+            "storage_method" : "Hindari menyimpan nanas di tempat yang terlalu lembap atau terkena paparan sinar matahari langsung, karena hal ini dapat mempercepat pematangan dan pembusukan. Untuk memperpanjang umur simpan, Anda juga dapat memotong nanas menjadi potongan-potongan dan menyimpannya di dalam kulkas dalam wadah kedap udara."
+        },
+        {
+            "id_item" : 3,
+            "image_link" : "https://img.freepik.com/free-photo/yellow-organic-mangos-mango-life_1203-5468.jpg?w=900&t=st=1699166774~exp=1699167374~hmac=42a1d2f4f7c0efd2ab0df77da482ffc2e41b24ec02962b07d8537b325b3ef9bf",
+            "title" : "Mangga Harum Manis",
+            "variant" : "1 kg",
+            "price" : 25000,
+            "description" : "Mangga Harum Manis adalah varietas mangga yang terkenal dengan rasanya yang manis dan aroma yang harum. Buah ini memiliki kulit yang halus dan berwarna kuning cerah. Daging mangga Harum Manis sangat lembut dan berair, dengan rasa manis yang memikat. Mangga ini sering dimakan segar, diolah menjadi jus, atau digunakan dalam hidangan penutup.",
+            "shelf_life" : [
+                "5-7 hari",
+                "4-6 hari"
+            ],
+            "storage_method" : "Hindari menyimpan mangga di tempat yang terlalu lembap, yang dapat memicu perkembangan jamur atau pembusukan. Pastikan untuk meletakkan mangga di tempat yang terlindung dari sinar matahari langsung, karena suhu tropis yang tinggi dapat mempercepat pematangan dan membuat kulit mangga berubah warna. Jika Anda ingin memperlambat pematangan, simpan mangga di dalam kulkas"
+        },
+        {
+            "id_item" : 4,
+            "image_link" : "https://img.freepik.com/free-photo/papaya-fruit-isolated_1203-6805.jpg?w=900&t=st=1699166591~exp=1699167191~hmac=9be8a9418053983e1e673a48cad74eaa5c01b94d23343415b5ee220da6f58263",
+            "title" : "Pepaya California",
+            "variant" : "1 Pcs",
+            "price" : 19900,
+            "description" : "Pepaya California adalah varietas pepaya yang terkenal dengan rasanya yang manis dan daging yang berwarna oranye cerah. Buah ini memiliki kulit tipis yang berwarna hijau muda ketika masih muda dan berubah menjadi kuning ketika matang. Pepaya California sering menjadi pilihan yang segar dan lezat untuk dimakan langsung atau diolah menjadi jus, salad, atau hidangan penutup.",
+            "shelf_life" : [
+                "7 hari",
+                "3-5 hari"
+            ],
+            "storage_method" : "Pastikan untuk meletakkan pepaya di tempat yang terlindung dari sinar matahari langsung, karena suhu tropis yang tinggi dapat mempercepat pematangan dan membuat kulit pepaya berubah warna. Jika Anda ingin memperlambat pematangan, simpan pepaya di dalam kulkas. Ini akan membantu mempertahankan kesegaran buah lebih lama."
+        },
+        {
+            "id_item" : 5,
+            "image_link" : "https://img.freepik.com/free-photo/wicker-basket-ripe-shiny-apples-marble-surface_114579-43690.jpg?w=900&t=st=1699167157~exp=1699167757~hmac=625ae7018486c122fe05cb99b20c3c5366ba5145eccb0fdf6fac27e27a11f335",
+            "title" : "Apel Malang (Rome Beauty)",
+            "variant" : "500 gram",
+            "price" : 34000,
+            "description" : "Apel Malang Rome Beauty adalah varietas apel yang dikenal dengan kulitnya yang berwarna hijau kemerahan. Apel ini memiliki daging yang renyah, manis, dan sedikit asam. Dengan cita rasa yang khas, apel Malang Rome Beauty sering digunakan dalam berbagai hidangan seperti pai, selai, atau dimakan segar.",
+            "shelf_life" : [
+                "1-2 minggu",
+                "7-10 hari"
+            ],
+            "storage_method" : "Hindari menyimpan apel di tempat yang terlalu lembap atau terkena paparan sinar matahari langsung, karena hal ini dapat mempercepat pematangan dan pembusukan. Untuk memperpanjang umur simpan, Anda juga dapat menyimpan apel dalam kulkas. Pastikan apel tidak bersentuhan langsung dengan suhu terlalu rendah, yang dapat membuatnya mengalami chill injury (kerusakan akibat suhu terlalu rendah)."
+        },
+        {
+            "id_item" : 6,
+            "image_link" : "https://img.freepik.com/free-photo/yellow-apples-wooden-table_1127-209.jpg?w=900&t=st=1699176185~exp=1699176785~hmac=5c4f12edde03b965102dc49904de6c88ee870e63ef8fa911170e7e3255de4a48",
+            "title" : "Pear Century Impor",
+            "variant" : "500 gram",
+            "price" : 14000 ,
+            "description" : "Pir Century Impor adalah varietas pir impor yang dikenal dengan bentuknya yang lebih besar daripada pir lainnya, dengan kulit yang halus berwarna kuning kehijauan dan daging yang berwarna putih hingga krim. Pir ini memiliki rasa yang manis dan tekstur yang renyah. Rasanya yang lezat menjadikannya camilan sehat yang cocok untuk dimakan segar atau diolah dalam berbagai hidangan, seperti salad buah atau pai.",
+            "shelf_life" : [
+                "7-10 hari",
+                "5-7 hari"
+            ],
+            "storage_method" : "Hindari menyimpan pir di tempat yang terlalu lembap, yang dapat memicu perkembangan jamur atau pembusukan. Pastikan untuk meletakkan pir di tempat yang terlindung dari sinar matahari langsung, karena suhu tropis yang tinggi dapat mempercepat pematangan dan membuat kulit pir berubah warna. Jika Anda ingin memperlambat pematangan, simpan pir di dalam kulkas dalam wadah tertutup"
+        },
+        {
+            "id_item" : 7,
+            "image_link" : "https://images.unsplash.com/photo-1689996647327-5d263fbbc79d?auto=format&fit=crop&q=80&w=1974&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "title" : "Jambu Biji Merah",
+            "variant" : "500 gram",
+            "price" : 14000,
+            "description" : "Jambu Biji Merah dikenal dengan kulit merah cerah, daging merah atau merah muda, serta rasa manis dan sedikit asam. Cocok dimakan segar atau diolah menjadi jus segar dan salad buah. Selain itu, jambu biji merah juga mengandung Vitamin C sebagai antioksidan alami yang mendukung sistem kekebalan tubuh, serta kandungan Vitamin A, serat, zat besi, fosfor, kalsium, dan mineral lainnya. Jambu biji merah juga memiliki komponen bioaktif seperti karotenoid dan polifenol yang memberikan manfaat kesehatan tambahan",
+            "shelf_life" : [
+                "7-10 hari",
+                "5-7 hari"
+            ],
+            "storage_method" : "Hindari menyimpan jambu di tempat yang terlalu lembap, yang dapat memicu perkembangan jamur atau pembusukan. Anda dapat meletakkan jambu di dalam wadah tertutup untuk menjaga kelembapan dan mencegah kontaminasi dengan bau-bauan lainnya. Jika Anda ingin memperlambat pematangan, simpan jambu di dalam kulkas dalam wadah tertutup. Ini akan membantu mempertahankan kesegaran buah lebih lama."
+        },
+        {
+            "id_item" : 8,
+            "image_link" : "https://img.freepik.com/free-photo/watermelon-with-slices-grey-grunge-table_176474-7242.jpg?w=900&t=st=1699176652~exp=1699177252~hmac=8394d9625edab6821bf897d3c80478c61e10db964f2e80708c169ad470ee1a4c",
+            "title" : "Semangka Merah Jumbo",
+            "variant" : "1 Pcs",
+            "price" : 30000,
+            "description" : "Semangka Merah adalah varietas semangka yang dikenal dengan daging buahnya yang berwarna merah cerah dan rasa yang sangat manis. Buah ini sangat segar dan sering menjadi camilan yang menyegarkan pada hari-hari panas. Semangka merah dapat dimakan langsung, diiris menjadi potongan-potongan, atau digunakan dalam pembuatan jus dan salad.",
+            "shelf_life" : [
+                "5-8 hari",
+                "4-6 hari"
+            ],
+            "storage_method" : "Hindari menyimpan semangka di tempat yang terlalu lembap, yang dapat memicu perkembangan jamur atau pembusukan. Pastikan untuk meletakkan semangka di tempat yang terlindung dari sinar matahari langsung, karena suhu tropis yang tinggi dapat mempercepat pematangan dan membuat kulit semangka berubah warna. Anda juga dapat menyimpan potongan semangka di dalam kulkas untuk mendapatkan hidangan yang lebih segar "
+        }
+    ]
+}

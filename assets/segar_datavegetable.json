@@ -1,0 +1,60 @@
+{
+    "data": [
+        {
+            "id_item" : 1,
+            "image_link" : "https://images.unsplash.com/photo-1620512485527-2fa996abf1b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+            "title" : "Brokoli Import Australia",
+            "varian" : "1 Pcs",
+            "price" : 30000
+        },
+        {
+            "id_item" : 2,
+            "image_link" : "https://images.unsplash.com/photo-1600807644626-fb3c8c8ba40d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+            "title" : "Bawang Merah Super",
+            "varian" : "200 gram",
+            "price" : 10000
+        },
+        {
+            "id_item" : 3,
+            "image_link" : "https://img.freepik.com/free-photo/fresh-red-tomatoes_2829-13449.jpg?w=740&t=st=1697501882~exp=1697502482~hmac=87b914b5742b995d555d66f56e89ca82badd4ef9ac8db04fc96c5a0aa5edc26a",
+            "title" : "Tomat Beef Premium",
+            "varian" : "1 Pcs",
+            "price" : 3500
+        },
+        {
+            "id_item" : 4,
+            "image_link" : "https://images.unsplash.com/photo-1602769515559-e15133a7e992?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1309&q=80",
+            "title" : "Daun Bawang Ukuran Standar",
+            "varian" : "250 gram",
+            "price" : 8000
+        },
+        {
+            "id_item" : 5,
+            "image_link" : "https://images.unsplash.com/photo-1526346698789-22fd84314424?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+            "title" : "Cabai Merah Besar Premium",
+            "varian" : "250 gram",
+            "price" : 22000
+        },
+        {
+            "id_item" : 6,
+            "image_link" : "https://images.unsplash.com/photo-1590848791238-fb3596a2ba56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+            "title" : "Wortel Berastagi",
+            "varian" : "500 gram",
+            "price" : 15000
+        },
+        {
+            "id_item" : 7,
+            "image_link" : "https://images.unsplash.com/photo-1599403417231-8387b0a3b7ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80",
+            "title" : "Kentang Dieng Sedang",
+            "varian" : "500 gram",
+            "price" : 14500
+        },
+        {
+            "id_item" : 8,
+            "image_link" : "https://images.unsplash.com/photo-1583681781586-b980500f327a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+            "title" : "Bayam Hijau Standar",
+            "varian" : "250 gram",
+            "price" : 4500
+        }
+    ]
+}

@@ -123,11 +123,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             borderRadius: BorderRadius.circular(8)),
                         clipBehavior: Clip.antiAlias,
                         child: Column(
-                          // mainAxisAlignment: MainAxisAlignment.start,
-                          // crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
-                            // Expanded(
-                            // child:
                             AspectRatio(
                               aspectRatio: 1 / 0.9,
                               child: Container(
@@ -144,14 +140,6 @@ class _HomeScreenState extends State<HomeScreen> {
                                     );
                                   },
                                 ),
-                                // child: Image.asset(
-                                //   "images/cached/data_image_${itemData.id_item}.jpeg",
-                                //   fit: BoxFit.cover,
-                                // ),
-                                // child: Image.network(
-                                //   itemData.image_link,
-                                //   fit: BoxFit.cover,
-                                // ),
                               ),
                             ),
                             Expanded(
@@ -190,9 +178,6 @@ class _HomeScreenState extends State<HomeScreen> {
                                         )
                                       ],
                                     ),
-                                    // Align(
-                                    //   alignment: Alignment.bottomCenter,
-                                    // child:
                                     Positioned(
                                       bottom: 0,
                                       left: 0,
@@ -235,7 +220,6 @@ class _HomeScreenState extends State<HomeScreen> {
                                         ),
                                       ),
                                     ),
-                                    // )
                                   ],
                                 ),
                               ),

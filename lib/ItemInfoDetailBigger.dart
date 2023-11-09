@@ -371,11 +371,6 @@ class ItemInfoDetailBigger extends StatelessWidget {
                                         highlightColor: Colors.greenAccent[100],
                                         onTap: () {
                                           if (countItem > 1) {
-                                            // setState(() {
-                                            //   _countItem--;
-                                            //   _textFieldController.text =
-                                            //       _countItem.toString();
-                                            // });
                                             substractCount();
                                           }
                                         },
@@ -407,9 +402,6 @@ class ItemInfoDetailBigger extends StatelessWidget {
                                     child: TextField(
                                       controller: textFieldController,
                                       onChanged: (value) {
-                                        // setState(() {
-                                        //   _countItem = int.parse(value);
-                                        // });
                                         setCountItem(value);
                                       },
                                       decoration:
@@ -436,11 +428,6 @@ class ItemInfoDetailBigger extends StatelessWidget {
                                       child: InkWell(
                                         highlightColor: Colors.greenAccent[100],
                                         onTap: () {
-                                          // setState(() {
-                                          //   _countItem++;
-                                          //   _textFieldController.text =
-                                          //       _countItem.toString();
-                                          // });
                                           addCount();
                                         },
                                         child: Container(

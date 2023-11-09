@@ -21,7 +21,6 @@ class MyAccountContent extends StatelessWidget {
                   bottomRight: Radius.circular(16)),
               color: AppColor.colorDarkGreen,
             ),
-            // child: SafeArea(
             child: Column(
               children: [
                 Container(
@@ -142,7 +141,6 @@ class MyAccountContent extends StatelessWidget {
                 )
               ],
             ),
-            // ),
           ),
           Container(
             margin: const EdgeInsets.only(top: 20, left: 16, right: 16),

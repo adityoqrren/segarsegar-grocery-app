@@ -25,11 +25,7 @@ class HomeAppbarBigger extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     final provider = Provider.of<PageSelectedState>(context, listen: false);
 
-    return
-        // PreferredSize(
-        //   preferredSize: Size.fromHeight(160),
-        //   child:
-        AppBar(
+    return AppBar(
       automaticallyImplyLeading: false,
       backgroundColor: AppColor.colorSmoothGreen,
       elevation: 0,
@@ -42,11 +38,9 @@ class HomeAppbarBigger extends StatelessWidget implements PreferredSizeWidget {
       ),
       flexibleSpace: Container(
         height: 80,
-        // color: Colors.pink,
         padding: const EdgeInsets.symmetric(horizontal: 16),
         alignment: Alignment.center,
         child: Row(
-          // crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Image.asset(
               "images/logo_segarsegar_reversed.png",
@@ -80,11 +74,6 @@ class HomeAppbarBigger extends StatelessWidget implements PreferredSizeWidget {
                     fillColor: Colors.white,
                     contentPadding: const EdgeInsets.symmetric(horizontal: 8),
                   ),
-                  // onChanged: (String value) {
-                  //   setState(() {
-                  //     _searchValue = value;
-                  //   });
-                  // },
                   textAlignVertical: TextAlignVertical.center,
                 ),
               ),
@@ -103,9 +92,6 @@ class HomeAppbarBigger extends StatelessWidget implements PreferredSizeWidget {
             ),
             IconButton(
               onPressed: () {
-                // Navigator.push(context, MaterialPageRoute(builder: (context) {
-                //   return const MyAccountScreenBigger();
-                // }));
                 provider.changePageSelected(1);
               },
               icon: SvgPicture.asset(
@@ -123,8 +109,6 @@ class HomeAppbarBigger extends StatelessWidget implements PreferredSizeWidget {
         preferredSize: const Size.fromHeight(80),
         child: Container(
           height: 80,
-          // color: Colors.purple,
-          // alignment: Alignment.center,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -147,12 +131,6 @@ class HomeAppbarBigger extends StatelessWidget implements PreferredSizeWidget {
                       borderRadius: BorderRadius.circular(16),
                       child: Container(
                         padding: const EdgeInsets.symmetric(vertical: 4),
-                        // decoration: BoxDecoration(
-                        //   color: (_selectedCategory == 0)
-                        //       ? AppColor.colorOrange
-                        //       : AppColor.colorDarkGreen,
-                        //   borderRadius: BorderRadius.circular(16),
-                        // ),
                         child: Column(
                           mainAxisSize: MainAxisSize.min,
                           children: [
@@ -189,12 +167,6 @@ class HomeAppbarBigger extends StatelessWidget implements PreferredSizeWidget {
                       borderRadius: BorderRadius.circular(16),
                       child: Container(
                         padding: const EdgeInsets.symmetric(vertical: 4),
-                        // decoration: BoxDecoration(
-                        //   color: (_selectedCategory == 0)
-                        //       ? AppColor.colorOrange
-                        //       : AppColor.colorDarkGreen,
-                        //   borderRadius: BorderRadius.circular(16),
-                        // ),
                         child: Column(
                           mainAxisSize: MainAxisSize.min,
                           children: [
@@ -231,12 +203,6 @@ class HomeAppbarBigger extends StatelessWidget implements PreferredSizeWidget {
                       borderRadius: BorderRadius.circular(16),
                       child: Container(
                         padding: const EdgeInsets.symmetric(vertical: 4),
-                        // decoration: BoxDecoration(
-                        //   color: (_selectedCategory == 0)
-                        //       ? AppColor.colorOrange
-                        //       : AppColor.colorDarkGreen,
-                        //   borderRadius: BorderRadius.circular(16),
-                        // ),
                         child: Column(
                           mainAxisSize: MainAxisSize.min,
                           children: [
@@ -257,6 +223,5 @@ class HomeAppbarBigger extends StatelessWidget implements PreferredSizeWidget {
         ),
       ),
     );
-    // );
   }
 }

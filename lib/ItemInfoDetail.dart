@@ -98,20 +98,14 @@ class _ItemInfoDetailState extends State<ItemInfoDetail> {
                 controller: _scrollController,
                 padding: const EdgeInsets.all(
                     0), //by default, listview add padding. avoid padding of statusbar with this way
-                // color: Colors.green, // Replace with your content
-                // child: Column(
                 child: Column(
                   children: [
-                    // Container(
-                    //   height: 320,
-                    //   child:
                     Image.network(
                       widget.itemData.image_link,
                       height: 320,
                       width: double.infinity,
                       fit: BoxFit.cover,
                     ),
-                    // ),
                     Container(
                       padding: const EdgeInsets.symmetric(
                           vertical: 12, horizontal: 16),
@@ -286,9 +280,6 @@ class _ItemInfoDetailState extends State<ItemInfoDetail> {
                                   SizedBox(
                                     width: 20,
                                   ),
-                                  // Container(
-                                  //   margin: EdgeInsets.only(left: 20, right: 20),
-                                  // child:
                                   Flexible(
                                     child: Text(
                                       Texts.bannerDetail_2,
@@ -300,7 +291,6 @@ class _ItemInfoDetailState extends State<ItemInfoDetail> {
                                       ),
                                     ),
                                   ),
-                                  // ),
                                   SizedBox(
                                     width: 16,
                                   ),
@@ -339,7 +329,6 @@ class _ItemInfoDetailState extends State<ItemInfoDetail> {
                     )
                   ],
                 ),
-                // ),
               ),
               //appbar
               Positioned(
@@ -394,16 +383,6 @@ class _ItemInfoDetailState extends State<ItemInfoDetail> {
                   elevation: 10,
                   child: Container(
                     color: Colors.white,
-                    // decoration: BoxDecoration(
-                    //   // color: Colors.white,
-                    //   // boxShadow: [
-                    //   //   BoxShadow(
-                    //   //     color: Colors.black54,
-                    //   //     blurRadius: 5,
-                    //   //     offset: Offset(0, 4),
-                    //   //   )
-                    //   // ],
-                    // ),
                     padding: const EdgeInsets.all(16),
                     child: Row(
                       children: [
@@ -412,10 +391,6 @@ class _ItemInfoDetailState extends State<ItemInfoDetail> {
                             children: [
                               Material(
                                 type: MaterialType.transparency,
-                                // borderRadius: BorderRadius.only(
-                                //   topLeft: Radius.circular(8),
-                                //   bottomLeft: Radius.circular(8),
-                                // ),
                                 child: Ink(
                                   decoration: BoxDecoration(
                                     borderRadius: const BorderRadius.only(
@@ -448,16 +423,6 @@ class _ItemInfoDetailState extends State<ItemInfoDetail> {
                                         size: 24,
                                         color: Colors.white,
                                       ),
-                                      // decoration: BoxDecoration(
-                                      //   // AppColor.colorGreyscaleWireframe,
-                                      //   border: Border.all(
-                                      //       color: AppColor.colorGreyscaleWireframe,
-                                      //       width: 2),
-                                      //   borderRadius: BorderRadius.only(
-                                      //     topLeft: Radius.circular(8),
-                                      //     bottomLeft: Radius.circular(8),
-                                      //   ),
-                                      // ),
                                     ),
                                   ),
                                 ),
@@ -490,10 +455,6 @@ class _ItemInfoDetailState extends State<ItemInfoDetail> {
                               ),
                               Material(
                                 type: MaterialType.transparency,
-                                // borderRadius: BorderRadius.only(
-                                //   topLeft: Radius.circular(8),
-                                //   bottomLeft: Radius.circular(8),
-                                // ),
                                 child: Ink(
                                   decoration: BoxDecoration(
                                     borderRadius: const BorderRadius.only(

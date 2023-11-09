@@ -28,19 +28,13 @@ class AppbarBigger extends StatelessWidget implements PreferredSizeWidget {
       ),
       flexibleSpace: Container(
         height: 80,
-        // color: Colors.pink,
         padding: const EdgeInsets.symmetric(horizontal: 16),
         alignment: Alignment.center,
         child: Row(
-          // crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             InkWell(
               onTap: () {
                 provider.changePageSelected(0);
-                // Navigator.pushReplacement(context,
-                //     MaterialPageRoute(builder: (context) {
-                //   return const MainPage();
-                // }));
                 Navigator.pushAndRemoveUntil(context,
                     MaterialPageRoute(builder: (context) {
                   return const MainPage();

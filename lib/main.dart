@@ -32,7 +32,6 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: const MainPage(),
-      // MainPage(),
     );
   }
 }
@@ -45,14 +44,7 @@ class MainPage extends StatefulWidget {
 }
 
 class _MainPageState extends State<MainPage> {
-  // int indexPageSelected = 0;
   List<Widget> screenList = [const HomeScreen(), const MyAccountScreen()];
-
-  // void changeIndexPageSelected(int pageSelected) {
-  //   setState(() {
-  //     indexPageSelected = pageSelected;
-  //   });
-  // }
 
   @override
   Widget build(BuildContext context) {
@@ -66,12 +58,7 @@ class _MainPageState extends State<MainPage> {
         return false;
       },
       child: Scaffold(
-        body:
-            //     IndexedStack(
-            //   index: indexPageSelected,
-            //   children: screenList,
-            // ),
-            Consumer<PageSelectedState>(
+        body: Consumer<PageSelectedState>(
           builder: (_, pageState, __) => IndexedStack(
             index: pageState.pageSelected,
             children: screenList,

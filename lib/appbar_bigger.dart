@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:segarsegar_dicoding_submission/PageSelectedState.dart';
-import 'package:segarsegar_dicoding_submission/appColors.dart';
-import 'package:segarsegar_dicoding_submission/dataTemplate.dart';
-import 'package:segarsegar_dicoding_submission/main.dart';
+import 'package:segarsegar_dicoding_submission/main_page.dart';
+import 'package:segarsegar_dicoding_submission/page_selected_state.dart';
+import 'package:segarsegar_dicoding_submission/app_colors.dart';
+import 'package:segarsegar_dicoding_submission/data_template.dart';
 
 class AppbarBigger extends StatelessWidget implements PreferredSizeWidget {
   const AppbarBigger({super.key});

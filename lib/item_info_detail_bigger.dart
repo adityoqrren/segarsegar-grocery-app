@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:segarsegar_dicoding_submission/AppbarBigger.dart';
-import 'package:segarsegar_dicoding_submission/appColors.dart';
-import 'package:segarsegar_dicoding_submission/dataTemplate.dart';
-import 'package:segarsegar_dicoding_submission/model/ItemData.dart';
+import 'package:segarsegar_dicoding_submission/appbar_bigger.dart';
+import 'package:segarsegar_dicoding_submission/app_colors.dart';
+import 'package:segarsegar_dicoding_submission/data_template.dart';
+import 'package:segarsegar_dicoding_submission/model/item_data.dart';
 
 class ItemInfoDetailBigger extends StatelessWidget {
   const ItemInfoDetailBigger(

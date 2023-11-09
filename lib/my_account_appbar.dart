@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:segarsegar_dicoding_submission/appColors.dart';
-import 'package:segarsegar_dicoding_submission/dataTemplate.dart';
+import 'package:segarsegar_dicoding_submission/app_colors.dart';
+import 'package:segarsegar_dicoding_submission/data_template.dart';
 
 class MyAccountAppbar extends StatelessWidget implements PreferredSizeWidget {
   const MyAccountAppbar({

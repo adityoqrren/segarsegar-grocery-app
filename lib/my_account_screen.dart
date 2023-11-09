@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:segarsegar_dicoding_submission/AppbarBigger.dart';
-import 'package:segarsegar_dicoding_submission/MyAccountAppbar.dart';
-import 'package:segarsegar_dicoding_submission/MyAccountContent.dart';
-import 'package:segarsegar_dicoding_submission/MyAccountContentBigger.dart';
+import 'package:segarsegar_dicoding_submission/appbar_bigger.dart';
+import 'package:segarsegar_dicoding_submission/my_account_appbar.dart';
+import 'package:segarsegar_dicoding_submission/my_account_content.dart';
+import 'package:segarsegar_dicoding_submission/my_account_content_bigger.dart';
 
 class MyAccountScreen extends StatelessWidget {
   const MyAccountScreen({super.key});

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:segarsegar_dicoding_submission/ItemInfoDetailBigger.dart';
-import 'package:segarsegar_dicoding_submission/appColors.dart';
-import 'package:segarsegar_dicoding_submission/dataTemplate.dart';
-import 'package:segarsegar_dicoding_submission/model/ItemData.dart';
+import 'package:segarsegar_dicoding_submission/item_info_detail_bigger.dart';
+import 'package:segarsegar_dicoding_submission/app_colors.dart';
+import 'package:segarsegar_dicoding_submission/data_template.dart';
+import 'package:segarsegar_dicoding_submission/model/item_data.dart';
 
 // var textTemplate =
 //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula interdum lacus quis vehicula. Ut ultricies dui vel lacus scelerisque, vel euismod tortor condimentum. Phasellus nec dui quis lacus gravida condimentum vel sed arcu. Fusce tristique dignissim justo, eu pharetra turpis. Proin in augue venenatis, tempus enim nec, egestas lectus. Ut ultricies dui vel lacus scelerisque, vel euismod tortor condimentum. Phasellus nec dui quis lacus gravida condimentum vel sed arcu. Fusce tristique dignissim justo, eu pharetra turpis. Proin in augue venenatis, tempus enim nec, egestas lectus.";

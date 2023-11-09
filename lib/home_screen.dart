@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:segarsegar_dicoding_submission/HomeScreenAppbar.dart';
-import 'package:segarsegar_dicoding_submission/HomeScreenAppbarBigger.dart';
-import 'package:segarsegar_dicoding_submission/appColors.dart';
-import 'package:segarsegar_dicoding_submission/ItemInfoDetail.dart';
-import 'package:segarsegar_dicoding_submission/dataTemplate.dart';
+import 'package:segarsegar_dicoding_submission/home_screen_appbar.dart';
+import 'package:segarsegar_dicoding_submission/home_screen_appbar_bigger.dart';
+import 'package:segarsegar_dicoding_submission/app_colors.dart';
+import 'package:segarsegar_dicoding_submission/item_info_detail.dart';
+import 'package:segarsegar_dicoding_submission/data_template.dart';
 import 'dart:convert';
 
-import 'package:segarsegar_dicoding_submission/model/ItemData.dart';
+import 'package:segarsegar_dicoding_submission/model/item_data.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

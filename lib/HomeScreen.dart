@@ -31,15 +31,19 @@ class _HomeScreenState extends State<HomeScreen> {
         : (code == 1)
             ? "assets/segar_detailfruits.json"
             : "assets/segar_detailmeatfish.json";
-    final String response = await rootBundle.loadString(locationFile);
-    final dataResponse = await json.decode(response);
-    final data = dataResponse["data"] as List;
-    List<ItemData> itemData =
-        data.map((itemJson) => ItemData.fromJson(itemJson)).toList();
-    //converting to object
-    setState(() {
-      _items = itemData;
-    });
+    try {
+      final String response = await rootBundle.loadString(locationFile);
+      final dataResponse = await json.decode(response);
+      final data = dataResponse["data"] as List;
+      List<ItemData> itemData =
+          data.map((itemJson) => ItemData.fromJson(itemJson)).toList();
+      //converting to object
+      setState(() {
+        _items = itemData;
+      });
+    } catch (e) {
+      debugPrint("error on getting data $e");
+    }
     // print(itemData[0].shelf_life);
   }
 
@@ -132,6 +136,13 @@ class _HomeScreenState extends State<HomeScreen> {
                                   placeholder: 'images/placeholder.png',
                                   image: itemData.image_link,
                                   fit: BoxFit.cover,
+                                  imageErrorBuilder:
+                                      (context, error, stackTrace) {
+                                    return Image.asset(
+                                      "images/placeholder.png",
+                                      fit: BoxFit.cover,
+                                    );
+                                  },
                                 ),
                                 // child: Image.asset(
                                 //   "images/cached/data_image_${itemData.id_item}.jpeg",
@@ -212,7 +223,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                                   color: Colors.white,
                                                 ),
                                                 Text(
-                                                  "tambah",
+                                                  Texts.addText,
                                                   style: TextStyle(
                                                       fontSize: 14,
                                                       fontFamily: 'Lato',

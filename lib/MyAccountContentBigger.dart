@@ -15,11 +15,7 @@ class MyAccountContentBigger extends StatelessWidget {
       child: Column(
         children: [
           Container(
-            child:
-                // Column(
-                //   mainAxisAlignment: MainAxisAlignment.start,
-                //   children: [
-                Row(
+            child: Row(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Expanded(
@@ -50,7 +46,7 @@ class MyAccountContentBigger extends StatelessWidget {
                                   crossAxisAlignment: CrossAxisAlignment.center,
                                   children: [
                                     Text(
-                                      "Profil Saya",
+                                      Texts.profileTitleText,
                                       style: TextStyle(
                                           fontFamily: 'Lato',
                                           fontSize: 24,
@@ -69,7 +65,7 @@ class MyAccountContentBigger extends StatelessWidget {
                               Container(
                                 margin: const EdgeInsets.only(top: 8),
                                 child: const Text(
-                                  "Melonia Lemonia Applea",
+                                  Texts.usernameTemp,
                                   style: TextStyle(
                                       fontFamily: 'Lato',
                                       fontSize: 16,
@@ -80,7 +76,7 @@ class MyAccountContentBigger extends StatelessWidget {
                               Container(
                                 margin: const EdgeInsets.only(top: 8),
                                 child: const Text(
-                                  "melonialemonia@gmail.com",
+                                  Texts.userEmailTemp,
                                   style: TextStyle(
                                       fontFamily: 'Lato',
                                       fontSize: 14,
@@ -94,7 +90,7 @@ class MyAccountContentBigger extends StatelessWidget {
                                   mainAxisAlignment: MainAxisAlignment.center,
                                   children: [
                                     Text(
-                                      "Edit Akun",
+                                      Texts.editAccountText,
                                       style: TextStyle(
                                           fontFamily: 'Lato',
                                           fontSize: 14,
@@ -152,7 +148,8 @@ class MyAccountContentBigger extends StatelessWidget {
                                                   ),
                                                   Flexible(
                                                     child: Text(
-                                                      "20 transaksi",
+                                                      Texts
+                                                          .transactionCountTemp,
                                                       style: TextStyle(
                                                         fontSize: 12,
                                                         fontFamily: 'Lato',
@@ -189,7 +186,7 @@ class MyAccountContentBigger extends StatelessWidget {
                                                   ),
                                                   Flexible(
                                                     child: Text(
-                                                      "20 stars",
+                                                      Texts.starsTemp,
                                                       style: TextStyle(
                                                         fontSize: 12,
                                                         fontFamily: 'Lato',
@@ -234,7 +231,7 @@ class MyAccountContentBigger extends StatelessWidget {
                                           width: 16,
                                         ),
                                         const Text(
-                                          "Alamat Saya",
+                                          Texts.myAddressText,
                                           style: TextStyle(
                                               fontSize: 16,
                                               fontWeight: FontWeight.normal,
@@ -269,7 +266,7 @@ class MyAccountContentBigger extends StatelessWidget {
                                           width: 16,
                                         ),
                                         Text(
-                                          "Pengaturan Privasi",
+                                          Texts.privacySettingText,
                                           style: TextStyle(
                                               fontSize: 16,
                                               fontWeight: FontWeight.normal,
@@ -304,7 +301,7 @@ class MyAccountContentBigger extends StatelessWidget {
                                           width: 16,
                                         ),
                                         Text(
-                                          "Transaksi Saya",
+                                          Texts.myTransactionText,
                                           style: TextStyle(
                                               fontSize: 16,
                                               fontWeight: FontWeight.normal,
@@ -339,7 +336,7 @@ class MyAccountContentBigger extends StatelessWidget {
                                           width: 16,
                                         ),
                                         Text(
-                                          "Favorit",
+                                          Texts.favoriteText,
                                           style: TextStyle(
                                               fontSize: 16,
                                               fontWeight: FontWeight.normal,
@@ -362,7 +359,6 @@ class MyAccountContentBigger extends StatelessWidget {
                                     padding: const EdgeInsets.symmetric(
                                         horizontal: 12),
                                     height: 40,
-                                    // color: Colors.pink,
                                     child: Row(
                                       children: [
                                         SvgPicture.asset(
@@ -371,7 +367,7 @@ class MyAccountContentBigger extends StatelessWidget {
                                           width: 16,
                                         ),
                                         const Text(
-                                          "Panduan Pengguna",
+                                          Texts.userGuidesText,
                                           style: TextStyle(
                                               fontSize: 16,
                                               fontWeight: FontWeight.normal,
@@ -399,7 +395,7 @@ class MyAccountContentBigger extends StatelessWidget {
                               color: Colors.red,
                             ),
                             label: const Text(
-                              "Log Out",
+                              Texts.logoutText,
                               style: TextStyle(
                                   fontSize: 16,
                                   fontWeight: FontWeight.normal,
@@ -428,7 +424,7 @@ class MyAccountContentBigger extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         const Text(
-                          "Alamat Saya",
+                          Texts.myAddressText,
                           style: TextStyle(
                             fontFamily: 'Lato',
                             fontSize: 24,
@@ -441,7 +437,7 @@ class MyAccountContentBigger extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               const Text(
-                                "Alamat Utama",
+                                Texts.mainAddressText,
                                 style: TextStyle(
                                   fontFamily: 'Lato',
                                   fontSize: 24,
@@ -452,7 +448,7 @@ class MyAccountContentBigger extends StatelessWidget {
                                 height: 28,
                               ),
                               Text(
-                                mainAddress,
+                                Texts.mainAddressTemp,
                                 style: const TextStyle(
                                   fontFamily: 'Lato',
                                   fontSize: 16,
@@ -473,7 +469,7 @@ class MyAccountContentBigger extends StatelessWidget {
                                     ),
                                     elevation: 1,
                                   ),
-                                  child: const Text("Edit"),
+                                  child: const Text(Texts.editText),
                                 ),
                               )
                             ],
@@ -485,7 +481,7 @@ class MyAccountContentBigger extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               const Text(
-                                "Alamat Lain",
+                                Texts.otherAddressText,
                                 style: TextStyle(
                                   fontFamily: 'Lato',
                                   fontSize: 24,
@@ -496,7 +492,8 @@ class MyAccountContentBigger extends StatelessWidget {
                                 height: 28,
                               ),
                               Column(
-                                children: otherAddressList.map((addressItem) {
+                                children: Texts.otherAddressTempList
+                                    .map((addressItem) {
                                   return Column(
                                     crossAxisAlignment:
                                         CrossAxisAlignment.start,
@@ -530,8 +527,8 @@ class MyAccountContentBigger extends StatelessWidget {
                                                 ),
                                                 elevation: 1,
                                               ),
-                                              child:
-                                                  const Text("Jadikan Utama"),
+                                              child: const Text(
+                                                  Texts.setMainAddress),
                                             ),
                                             const SizedBox(
                                               width: 40,
@@ -547,7 +544,7 @@ class MyAccountContentBigger extends StatelessWidget {
                                                 ),
                                                 elevation: 1,
                                               ),
-                                              child: const Text("Edit"),
+                                              child: const Text(Texts.editText),
                                             ),
                                           ],
                                         ),
@@ -562,32 +559,6 @@ class MyAccountContentBigger extends StatelessWidget {
                                   );
                                 }).toList(),
                               )
-                              // Text(
-                              //   mainAddress,
-                              //   style: TextStyle(
-                              //     fontFamily: 'Lato',
-                              //     fontSize: 16,
-                              //     fontWeight: FontWeight.normal,
-                              //   ),
-                              // ),
-                              // SizedBox(
-                              //   height: 8,
-                              // ),
-                              // Align(
-                              //   alignment: Alignment.topRight,
-                              //   child: ElevatedButton(
-                              //     onPressed: () {},
-                              //     child: Text("Edit"),
-                              //     style: ElevatedButton.styleFrom(
-                              //       backgroundColor:
-                              //           AppColor.colorSmoothGreen,
-                              //       shape: RoundedRectangleBorder(
-                              //         borderRadius: BorderRadius.circular(8),
-                              //       ),
-                              //       elevation: 1,
-                              //     ),
-                              //   ),
-                              // )
                             ],
                           ),
                         ),
@@ -597,8 +568,6 @@ class MyAccountContentBigger extends StatelessWidget {
                 )
               ],
             ),
-            //   ],
-            // ),
           ),
         ],
       ),

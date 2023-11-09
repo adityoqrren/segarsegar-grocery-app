@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:segarsegar_dicoding_submission/ItemInfoDetailBigger.dart';
 import 'package:segarsegar_dicoding_submission/appColors.dart';
+import 'package:segarsegar_dicoding_submission/dataTemplate.dart';
 import 'package:segarsegar_dicoding_submission/model/ItemData.dart';
 
-var textTemplate =
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula interdum lacus quis vehicula. Ut ultricies dui vel lacus scelerisque, vel euismod tortor condimentum. Phasellus nec dui quis lacus gravida condimentum vel sed arcu. Fusce tristique dignissim justo, eu pharetra turpis. Proin in augue venenatis, tempus enim nec, egestas lectus. Ut ultricies dui vel lacus scelerisque, vel euismod tortor condimentum. Phasellus nec dui quis lacus gravida condimentum vel sed arcu. Fusce tristique dignissim justo, eu pharetra turpis. Proin in augue venenatis, tempus enim nec, egestas lectus.";
+// var textTemplate =
+//     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vehicula interdum lacus quis vehicula. Ut ultricies dui vel lacus scelerisque, vel euismod tortor condimentum. Phasellus nec dui quis lacus gravida condimentum vel sed arcu. Fusce tristique dignissim justo, eu pharetra turpis. Proin in augue venenatis, tempus enim nec, egestas lectus. Ut ultricies dui vel lacus scelerisque, vel euismod tortor condimentum. Phasellus nec dui quis lacus gravida condimentum vel sed arcu. Fusce tristique dignissim justo, eu pharetra turpis. Proin in augue venenatis, tempus enim nec, egestas lectus.";
 
 class ItemInfoDetail extends StatefulWidget {
   const ItemInfoDetail({super.key, required this.itemData});
@@ -137,7 +138,7 @@ class _ItemInfoDetailState extends State<ItemInfoDetail> {
                           Container(
                             margin: const EdgeInsets.only(top: 8),
                             child: Text(
-                              "Rp${widget.itemData.price}",
+                              currencyFormat(widget.itemData.price),
                               style: const TextStyle(
                                 fontFamily: 'Lato',
                                 fontSize: 20,
@@ -160,7 +161,7 @@ class _ItemInfoDetailState extends State<ItemInfoDetail> {
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
                             const Text(
-                              "Deskripsi",
+                              Texts.descText,
                               style: TextStyle(
                                 fontFamily: 'Lato',
                                 fontSize: 16,
@@ -193,7 +194,7 @@ class _ItemInfoDetailState extends State<ItemInfoDetail> {
                         crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
                           const Text(
-                            "Umur Simpan",
+                            Texts.shelfLifeText,
                             style: TextStyle(
                               fontFamily: 'Lato',
                               fontSize: 16,
@@ -238,7 +239,7 @@ class _ItemInfoDetailState extends State<ItemInfoDetail> {
                         crossAxisAlignment: CrossAxisAlignment.stretch,
                         children: [
                           const Text(
-                            "Petunjuk Penyimpanan",
+                            Texts.storageMethodText,
                             style: TextStyle(
                               fontFamily: 'Lato',
                               fontSize: 16,
@@ -274,7 +275,7 @@ class _ItemInfoDetailState extends State<ItemInfoDetail> {
                               child: Row(
                                 children: [
                                   Text(
-                                    "100%",
+                                    Texts.bannerDetail_1,
                                     style: TextStyle(
                                       fontFamily: 'Lato',
                                       fontSize: 40,
@@ -290,7 +291,7 @@ class _ItemInfoDetailState extends State<ItemInfoDetail> {
                                   // child:
                                   Flexible(
                                     child: Text(
-                                      "Kualitas Terjamin",
+                                      Texts.bannerDetail_2,
                                       style: TextStyle(
                                         fontFamily: 'Lato',
                                         fontSize: 14,
@@ -319,7 +320,7 @@ class _ItemInfoDetailState extends State<ItemInfoDetail> {
                                 padding:
                                     const EdgeInsets.symmetric(horizontal: 16),
                                 child: const Text(
-                                  "Cepat sampai, kurang dari 4 jam",
+                                  Texts.bannerDetail_3,
                                   style: TextStyle(
                                     fontFamily: 'Lato',
                                     fontSize: 14,
@@ -552,7 +553,7 @@ class _ItemInfoDetailState extends State<ItemInfoDetail> {
                             ),
                             onPressed: () {},
                             label: const Text(
-                              "tambah",
+                              Texts.addText,
                               style: TextStyle(
                                 fontFamily: 'Lato',
                                 fontSize: 20,

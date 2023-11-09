@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:segarsegar_dicoding_submission/AppbarBigger.dart';
 import 'package:segarsegar_dicoding_submission/appColors.dart';
 import 'package:segarsegar_dicoding_submission/dataTemplate.dart';
-import 'package:segarsegar_dicoding_submission/itemInfoDetail.dart';
 import 'package:segarsegar_dicoding_submission/model/ItemData.dart';
 
 class ItemInfoDetailBigger extends StatelessWidget {
@@ -79,7 +78,7 @@ class ItemInfoDetailBigger extends StatelessWidget {
                                         child: Row(
                                           children: [
                                             Text(
-                                              "100%",
+                                              Texts.bannerDetail_1,
                                               style: TextStyle(
                                                 fontFamily: 'Lato',
                                                 fontSize: 40,
@@ -95,7 +94,7 @@ class ItemInfoDetailBigger extends StatelessWidget {
                                             // child:
                                             Flexible(
                                               child: Text(
-                                                "Kualitas Terjamin",
+                                                Texts.bannerDetail_2,
                                                 style: TextStyle(
                                                   fontFamily: 'Lato',
                                                   fontSize: 14,
@@ -125,7 +124,7 @@ class ItemInfoDetailBigger extends StatelessWidget {
                                           padding: const EdgeInsets.symmetric(
                                               horizontal: 16),
                                           child: const Text(
-                                            "Cepat sampai, kurang dari 4 jam",
+                                            Texts.bannerDetail_3,
                                             style: TextStyle(
                                               fontFamily: 'Lato',
                                               fontSize: 14,
@@ -143,7 +142,7 @@ class ItemInfoDetailBigger extends StatelessWidget {
                                       CrossAxisAlignment.stretch,
                                   children: [
                                     const Text(
-                                      "100%",
+                                      Texts.bannerDetail_1,
                                       style: TextStyle(
                                         fontFamily: 'Lato',
                                         fontSize: 40,
@@ -156,7 +155,7 @@ class ItemInfoDetailBigger extends StatelessWidget {
                                         const Expanded(
                                           flex: 1,
                                           child: Text(
-                                            "Kualitas Terjamin",
+                                            Texts.bannerDetail_2,
                                             style: TextStyle(
                                               fontFamily: 'Lato',
                                               fontSize: 14,
@@ -173,7 +172,7 @@ class ItemInfoDetailBigger extends StatelessWidget {
                                         const Expanded(
                                           flex: 1,
                                           child: Text(
-                                            "Cepat sampai, kurang dari 4 jam",
+                                            Texts.bannerDetail_3,
                                             style: TextStyle(
                                               fontFamily: 'Lato',
                                               fontSize: 14,
@@ -253,7 +252,7 @@ class ItemInfoDetailBigger extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: [
                               const Text(
-                                "Deskripsi",
+                                Texts.descText,
                                 style: TextStyle(
                                   fontFamily: 'Lato',
                                   fontSize: 16,
@@ -283,7 +282,7 @@ class ItemInfoDetailBigger extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: [
                               const Text(
-                                "Umur Simpan",
+                                Texts.shelfLifeText,
                                 style: TextStyle(
                                   fontFamily: 'Lato',
                                   fontSize: 16,
@@ -322,7 +321,7 @@ class ItemInfoDetailBigger extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.stretch,
                             children: [
                               const Text(
-                                "Petunjuk Penyimpanan",
+                                Texts.storageMethodText,
                                 style: TextStyle(
                                   fontFamily: 'Lato',
                                   fontSize: 16,
@@ -478,7 +477,7 @@ class ItemInfoDetailBigger extends StatelessWidget {
                                 ),
                                 onPressed: () {},
                                 label: const Text(
-                                  "tambah",
+                                  Texts.addText,
                                   style: TextStyle(
                                     fontFamily: 'Lato',
                                     fontSize: 20,

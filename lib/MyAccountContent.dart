@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:segarsegar_dicoding_submission/appColors.dart';
+import 'package:segarsegar_dicoding_submission/dataTemplate.dart';
 
 class MyAccountContent extends StatelessWidget {
   const MyAccountContent({
@@ -31,7 +32,7 @@ class MyAccountContent extends StatelessWidget {
                 Container(
                   margin: const EdgeInsets.only(top: 8),
                   child: const Text(
-                    "Melonia Lemonia Applea",
+                    Texts.usernameTemp,
                     style: TextStyle(
                         fontFamily: 'Lato',
                         fontSize: 16,
@@ -42,7 +43,7 @@ class MyAccountContent extends StatelessWidget {
                 Container(
                   margin: const EdgeInsets.only(top: 8),
                   child: const Text(
-                    "melonialemonia@gmail.com",
+                    Texts.userEmailTemp,
                     style: TextStyle(
                         fontFamily: 'Lato',
                         fontSize: 14,
@@ -56,7 +57,7 @@ class MyAccountContent extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
                       Text(
-                        "Edit Akun",
+                        Texts.editAccountText,
                         style: TextStyle(
                             fontFamily: 'Lato',
                             fontSize: 14,
@@ -105,7 +106,7 @@ class MyAccountContent extends StatelessWidget {
                                     SizedBox(
                                       width: 4,
                                     ),
-                                    Text("20 transaksi")
+                                    Text(Texts.transactionCountTemp)
                                   ],
                                 ),
                               ),
@@ -128,7 +129,7 @@ class MyAccountContent extends StatelessWidget {
                                     SizedBox(
                                       width: 4,
                                     ),
-                                    Text("20 stars")
+                                    Text(Texts.starsTemp)
                                   ],
                                 ),
                               ),
@@ -160,7 +161,7 @@ class MyAccountContent extends StatelessWidget {
                           width: 16,
                         ),
                         const Text(
-                          "Alamat Saya",
+                          Texts.myAddressText,
                           style: TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.normal,
@@ -179,7 +180,6 @@ class MyAccountContent extends StatelessWidget {
                   child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 12),
                     height: 40,
-                    // color: Colors.pink,
                     child: const Row(
                       children: [
                         Icon(
@@ -191,7 +191,7 @@ class MyAccountContent extends StatelessWidget {
                           width: 16,
                         ),
                         Text(
-                          "Pengaturan Privasi",
+                          Texts.privacySettingText,
                           style: TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.normal,
@@ -210,7 +210,6 @@ class MyAccountContent extends StatelessWidget {
                   child: Container(
                     padding: const EdgeInsets.symmetric(horizontal: 12),
                     height: 40,
-                    // color: Colors.pink,
                     child: const Row(
                       children: [
                         Icon(
@@ -222,7 +221,7 @@ class MyAccountContent extends StatelessWidget {
                           width: 16,
                         ),
                         Text(
-                          "Transaksi Saya",
+                          Texts.myTransactionText,
                           style: TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.normal,
@@ -253,7 +252,7 @@ class MyAccountContent extends StatelessWidget {
                           width: 16,
                         ),
                         Text(
-                          "Favorit",
+                          Texts.favoriteText,
                           style: TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.normal,
@@ -280,7 +279,7 @@ class MyAccountContent extends StatelessWidget {
                           width: 16,
                         ),
                         const Text(
-                          "Panduan Pengguna",
+                          Texts.userGuidesText,
                           style: TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.normal,
@@ -307,7 +306,7 @@ class MyAccountContent extends StatelessWidget {
                 color: Colors.red,
               ),
               label: const Text(
-                "Log Out",
+                Texts.logoutText,
                 style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.normal,

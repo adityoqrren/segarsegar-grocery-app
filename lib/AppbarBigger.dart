@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:segarsegar_dicoding_submission/PageSelectedState.dart';
 import 'package:segarsegar_dicoding_submission/appColors.dart';
+import 'package:segarsegar_dicoding_submission/dataTemplate.dart';
 import 'package:segarsegar_dicoding_submission/main.dart';
 
 class AppbarBigger extends StatelessWidget implements PreferredSizeWidget {
@@ -54,7 +55,7 @@ class AppbarBigger extends StatelessWidget implements PreferredSizeWidget {
             Container(
               margin: const EdgeInsets.symmetric(horizontal: 16),
               child: const Text(
-                "segarSegar",
+                Texts.mainTitleText,
                 style: TextStyle(
                     fontSize: 28,
                     fontWeight: FontWeight.w600,
@@ -68,7 +69,7 @@ class AppbarBigger extends StatelessWidget implements PreferredSizeWidget {
                 child: TextField(
                   decoration: InputDecoration(
                     prefixIcon: const Icon(Icons.search),
-                    hintText: 'Cari produk segar disini',
+                    hintText: Texts.searchHintText,
                     border: OutlineInputBorder(
                       borderSide:
                           const BorderSide(color: Colors.black, width: 1),

@@ -6,6 +6,7 @@ import 'package:segarsegar_dicoding_submission/HomeScreen.dart';
 import 'package:segarsegar_dicoding_submission/MyAccountScreen.dart';
 import 'package:segarsegar_dicoding_submission/PageSelectedState.dart';
 import 'package:segarsegar_dicoding_submission/appColors.dart';
+import 'package:segarsegar_dicoding_submission/dataTemplate.dart';
 
 void main() {
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
@@ -66,19 +67,6 @@ class _MainPageState extends State<MainPage> {
       },
       child: Scaffold(
         body:
-            // LayoutBuilder(
-            //   builder: (context, constraints) {
-            //     if (constraints.maxWidth >= 768) {
-            //       return HomeScreenBigger();
-            //     } else {
-            //       return IndexedStack(
-            //         index: indexPageSelected,
-            //         children: screenList,
-            //       );
-            //     }
-            //   },
-            // ),
-
             //     IndexedStack(
             //   index: indexPageSelected,
             //   children: screenList,
@@ -109,7 +97,7 @@ class _MainPageState extends State<MainPage> {
                                   : AppColor.colorGreyDarker,
                               BlendMode.srcIn),
                         ),
-                        label: "Home"),
+                        label: Texts.homeText),
                     BottomNavigationBarItem(
                         icon: SvgPicture.asset(
                           "images/iconamoon_profile.svg",
@@ -119,7 +107,7 @@ class _MainPageState extends State<MainPage> {
                                   : AppColor.colorGreyDarker,
                               BlendMode.srcIn),
                         ),
-                        label: "Profile"),
+                        label: Texts.profileText),
                   ],
                 );
               }

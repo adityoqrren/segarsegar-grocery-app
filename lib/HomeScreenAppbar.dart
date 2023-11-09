@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:segarsegar_dicoding_submission/appColors.dart';
+import 'package:segarsegar_dicoding_submission/dataTemplate.dart';
 
 class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
   const HomeAppBar(
@@ -38,18 +39,13 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
           'images/logo_segarsegar_reversed.png',
           fit: BoxFit.fitWidth,
         ),
-        // Text("SegarSegar"),
       ),
-      title:
-          // Padding(
-          //   padding: EdgeInsets.symmetric(vertical: 16, horizontal: 12),
-          //   child:
-          Container(
+      title: Container(
         height: 32,
         child: TextField(
           decoration: InputDecoration(
             prefixIcon: const Icon(Icons.search),
-            hintText: 'Cari produk segar disini',
+            hintText: Texts.searchHintText,
             border: OutlineInputBorder(
               borderSide: const BorderSide(color: Colors.black, width: 1),
               borderRadius: BorderRadius.circular(28.0),
@@ -76,30 +72,10 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
       ],
       bottom: PreferredSize(
         preferredSize: const Size.fromHeight(88),
-        // child: ClipRRect(
-        //   borderRadius: BorderRadius.only(
-        //     bottomLeft: Radius.circular(16),
-        //     bottomRight: Radius.circular(16),
-        //   ),
-        // child: ClipRRect(
-        //   borderRadius: BorderRadius.only(
-        //     bottomLeft: Radius.circular(16),
-        //     bottomRight: Radius.circular(16),
-        //   ),
         child: Container(
           height: 88,
           padding: const EdgeInsets.symmetric(horizontal: 16),
-          // decoration: BoxDecoration(
-          //   borderRadius: BorderRadius.only(
-          //     bottomLeft: Radius.circular(16),
-          //     bottomRight: Radius.circular(16),
-          //   ),
-          // color: Colors.red,
-          // ),
-          // color: Colors.red,
           child: Row(
-            // crossAxisAlignment: CrossAxisAlignment.center,
-            // mainAxisSize: MainAxisSize.max,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Expanded(
@@ -127,7 +103,7 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
                             const SizedBox(
                               height: 4,
                             ),
-                            const Text("Vegetables"),
+                            const Text(Texts.vegetablesText),
                           ],
                         ),
                       ),
@@ -163,7 +139,7 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
                             const SizedBox(
                               height: 4,
                             ),
-                            const Text("Fruits"),
+                            const Text(Texts.fruitsText),
                           ],
                         ),
                       ),
@@ -199,7 +175,7 @@ class HomeAppBar extends StatelessWidget implements PreferredSizeWidget {
                             const SizedBox(
                               height: 4,
                             ),
-                            const Text("Meat & Fish"),
+                            const Text(Texts.meatfistText),
                           ],
                         ),
                       ),

@@ -126,20 +126,18 @@ class _HomeScreenState extends State<HomeScreen> {
                           children: [
                             AspectRatio(
                               aspectRatio: 1 / 0.9,
-                              child: Container(
-                                //OPEN THIS LINE WHEN WE WANT TO DEPLOY (SUBMIT)
-                                child: FadeInImage.assetNetwork(
-                                  placeholder: 'images/placeholder.png',
-                                  image: itemData.image_link,
-                                  fit: BoxFit.cover,
-                                  imageErrorBuilder:
-                                      (context, error, stackTrace) {
-                                    return Image.asset(
-                                      "images/placeholder.png",
-                                      fit: BoxFit.cover,
-                                    );
-                                  },
-                                ),
+                              //OPEN THIS LINE WHEN WE WANT TO DEPLOY (SUBMIT)
+                              child: FadeInImage.assetNetwork(
+                                placeholder: 'images/placeholder.png',
+                                image: itemData.image_link,
+                                fit: BoxFit.cover,
+                                imageErrorBuilder:
+                                    (context, error, stackTrace) {
+                                  return Image.asset(
+                                    "images/placeholder.png",
+                                    fit: BoxFit.cover,
+                                  );
+                                },
                               ),
                             ),
                             Expanded(

@@ -350,101 +350,98 @@ class ItemInfoDetailBigger extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            Container(
-                              child: Row(
-                                children: [
-                                  Material(
-                                    type: MaterialType.transparency,
-                                    child: Ink(
-                                      decoration: BoxDecoration(
-                                        borderRadius: const BorderRadius.only(
-                                          topLeft: Radius.circular(8),
-                                          bottomLeft: Radius.circular(8),
-                                        ),
-                                        color: AppColor.colorSmoothGreen,
-                                        border: Border.all(
-                                            color: AppColor
-                                                .colorGreyscaleWireframe,
-                                            width: 2),
+                            Row(
+                              children: [
+                                Material(
+                                  type: MaterialType.transparency,
+                                  child: Ink(
+                                    decoration: BoxDecoration(
+                                      borderRadius: const BorderRadius.only(
+                                        topLeft: Radius.circular(8),
+                                        bottomLeft: Radius.circular(8),
                                       ),
-                                      child: InkWell(
-                                        highlightColor: Colors.greenAccent[100],
-                                        onTap: () {
-                                          if (countItem > 1) {
-                                            substractCount();
-                                          }
-                                        },
-                                        child: Container(
-                                          width: 36,
-                                          height: 36,
-                                          alignment: Alignment.center,
-                                          child: const Icon(
-                                            Icons.remove,
-                                            size: 24,
-                                            color: Colors.white,
-                                          ),
-                                        ),
-                                      ),
+                                      color: AppColor.colorSmoothGreen,
+                                      border: Border.all(
+                                          color:
+                                              AppColor.colorGreyscaleWireframe,
+                                          width: 2),
                                     ),
-                                  ),
-                                  Container(
-                                    width: 48,
-                                    height: 40,
-                                    decoration: const BoxDecoration(
-                                        border: Border.symmetric(
-                                          horizontal: BorderSide(
-                                              width: 2,
-                                              color: AppColor
-                                                  .colorGreyscaleWireframe),
-                                        ),
-                                        color: Colors.white),
-                                    alignment: Alignment.center,
-                                    child: TextField(
-                                      controller: textFieldController,
-                                      onChanged: (value) {
-                                        setCountItem(value);
+                                    child: InkWell(
+                                      highlightColor: Colors.greenAccent[100],
+                                      onTap: () {
+                                        if (countItem > 1) {
+                                          substractCount();
+                                        }
                                       },
-                                      decoration:
-                                          const InputDecoration.collapsed(
-                                              hintText: ""),
-                                      keyboardType: TextInputType.number,
-                                      textAlign: TextAlign.center,
+                                      child: Container(
+                                        width: 36,
+                                        height: 36,
+                                        alignment: Alignment.center,
+                                        child: const Icon(
+                                          Icons.remove,
+                                          size: 24,
+                                          color: Colors.white,
+                                        ),
+                                      ),
                                     ),
                                   ),
-                                  Material(
-                                    type: MaterialType.transparency,
-                                    child: Ink(
-                                      decoration: BoxDecoration(
-                                        borderRadius: const BorderRadius.only(
-                                          topRight: Radius.circular(8),
-                                          bottomRight: Radius.circular(8),
-                                        ),
-                                        color: AppColor.colorSmoothGreen,
-                                        border: Border.all(
+                                ),
+                                Container(
+                                  width: 48,
+                                  height: 40,
+                                  decoration: const BoxDecoration(
+                                      border: Border.symmetric(
+                                        horizontal: BorderSide(
+                                            width: 2,
                                             color: AppColor
-                                                .colorGreyscaleWireframe,
-                                            width: 2),
+                                                .colorGreyscaleWireframe),
                                       ),
-                                      child: InkWell(
-                                        highlightColor: Colors.greenAccent[100],
-                                        onTap: () {
-                                          addCount();
-                                        },
-                                        child: Container(
-                                          width: 36,
-                                          height: 36,
-                                          alignment: Alignment.center,
-                                          child: const Icon(
-                                            Icons.add,
-                                            size: 24,
-                                            color: Colors.white,
-                                          ),
+                                      color: Colors.white),
+                                  alignment: Alignment.center,
+                                  child: TextField(
+                                    controller: textFieldController,
+                                    onChanged: (value) {
+                                      setCountItem(value);
+                                    },
+                                    decoration: const InputDecoration.collapsed(
+                                        hintText: ""),
+                                    keyboardType: TextInputType.number,
+                                    textAlign: TextAlign.center,
+                                  ),
+                                ),
+                                Material(
+                                  type: MaterialType.transparency,
+                                  child: Ink(
+                                    decoration: BoxDecoration(
+                                      borderRadius: const BorderRadius.only(
+                                        topRight: Radius.circular(8),
+                                        bottomRight: Radius.circular(8),
+                                      ),
+                                      color: AppColor.colorSmoothGreen,
+                                      border: Border.all(
+                                          color:
+                                              AppColor.colorGreyscaleWireframe,
+                                          width: 2),
+                                    ),
+                                    child: InkWell(
+                                      highlightColor: Colors.greenAccent[100],
+                                      onTap: () {
+                                        addCount();
+                                      },
+                                      child: Container(
+                                        width: 36,
+                                        height: 36,
+                                        alignment: Alignment.center,
+                                        child: const Icon(
+                                          Icons.add,
+                                          size: 24,
+                                          color: Colors.white,
                                         ),
                                       ),
                                     ),
                                   ),
-                                ],
-                              ),
+                                ),
+                              ],
                             ),
                             const Spacer(flex: 2),
                             Expanded(

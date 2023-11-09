@@ -13,10 +13,10 @@ class MyAccountScreen extends StatelessWidget {
 
     return Scaffold(
         appBar: (screenSize.width >= 768)
-            ? AppbarBigger()
-            : MyAccountAppbar() as PreferredSizeWidget,
+            ? const AppbarBigger()
+            : const MyAccountAppbar() as PreferredSizeWidget,
         body: (screenSize.width >= 768)
-            ? MyAccountContentBigger()
-            : MyAccountContent());
+            ? const MyAccountContentBigger()
+            : const MyAccountContent());
   }
 }

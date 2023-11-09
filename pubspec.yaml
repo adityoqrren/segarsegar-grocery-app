@@ -80,14 +80,6 @@ flutter:
     - images/gg_profile.svg
     - images/location_away_outline.svg
     - images/solar_book-linear.svg
-    - images/cached/data_image_1.jpeg
-    - images/cached/data_image_2.jpeg
-    - images/cached/data_image_3.jpeg
-    - images/cached/data_image_4.jpeg
-    - images/cached/data_image_5.jpeg
-    - images/cached/data_image_6.jpeg
-    - images/cached/data_image_7.jpeg
-    - images/cached/data_image_8.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

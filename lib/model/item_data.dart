@@ -36,10 +36,7 @@ class ItemData {
 
   @override
   String toString() {
-    // TODO: implement toString
-    return '{${this.id_item},${this.image_link},${this.title},${this.variant},${this.price},${this.description},${this.shelf_life},${this.storage_method}}';
+    return '{$id_item,$image_link,$title,$variant,$price,$description,$shelf_life,$storage_method}';
     //return '{${this.id_item},${this.image_link},${this.title},${this.variant},${this.price},${this.description},${this.storage_method}}';
   }
 }
-
-//class ItemDataDetail

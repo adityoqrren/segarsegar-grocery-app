@@ -1,16 +1,18 @@
-# segarsegar_dicoding_submission
+# segarSegar Application
 
-A new Flutter project.
+This is grocery app to help users shop their daily needs especially vegetables, fruits, meats and fish.
 
-## Getting Started
+## Purpose
 
-This project is a starting point for a Flutter application.
+This app was made as final project of Dicoding Indonesia course "Belajar Membuat Aplikasi Flutter untuk Pemula"
 
-A few resources to get you started if this is your first Flutter project:
+## Posters
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![1](https://github.com/adityoqrren/segarsegar-grocery-app/assets/37008918/110a313a-8cb1-4f13-bed4-af610f07ae8a)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![2](https://github.com/adityoqrren/segarsegar-grocery-app/assets/37008918/1f129134-89c9-4f3d-a4fa-eed540389b19)
+
+![3](https://github.com/adityoqrren/segarsegar-grocery-app/assets/37008918/d5f0a3e9-09d4-4fb0-91af-41a4b535704b)
+
+
+

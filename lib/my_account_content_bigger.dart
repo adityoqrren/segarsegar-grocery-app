@@ -58,7 +58,19 @@ class MyAccountContentBigger extends StatelessWidget {
                             Container(
                               margin: const EdgeInsets.only(top: 24),
                               alignment: Alignment.center,
-                              child: SvgPicture.asset('images/gg_profile.svg'),
+                              child: CircleAvatar(
+                                radius: 56,
+                                backgroundColor: AppColor.colorGreyDarker,
+                                child: Padding(
+                                  padding: EdgeInsets.all(1),
+                                  child: ClipOval(
+                                    child: Image.asset(
+                                      'images/photo_profile.jpg',
+                                      fit: BoxFit.cover,
+                                    ),
+                                  ),
+                                ),
+                              ),
                             ),
                             Container(
                               margin: const EdgeInsets.only(top: 8),

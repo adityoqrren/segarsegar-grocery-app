@@ -52,9 +52,9 @@ class Texts {
   static const String mainAddressTemp =
       "Jalan Jendral Ahmad Yani No 20 A/B Seberang Ulu II Palembang, Sumatera Selatan";
 
-  static const String usernameTemp = "Melonia Lemonia Applea";
+  static const String usernameTemp = "Lemola Melona Applea";
 
-  static const String userEmailTemp = "melonialemonia@gmail.com";
+  static const String userEmailTemp = "lemolamelona@gmail.com";
 
   static const String transactionCountTemp = "20 transaksi";
 
